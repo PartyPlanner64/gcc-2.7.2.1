@@ -1,0 +1,4 @@
+#!/bin/sh
+# GCC was configured as follows:
+./configure --target=mips --prefix= --host=i386-pc-linux --build=i386-pc-linux
+echo host=i386-pc-linux target=mips-mips-none build=i386-pc-linux
