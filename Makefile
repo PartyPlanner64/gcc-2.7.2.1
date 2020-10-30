@@ -1144,7 +1144,6 @@ libgcc2.a: libgcc2.c libgcc2.ready $(CONFIG_H) $(LIB2FUNCS_EXTRA) \
 	      $(srcdir)/libgcc2.c -o $${name}$(objext); \
 	  if [ $$? -eq 0 ] ; then true; else exit 1; fi; \
 	  $(AR) $(AR_FLAGS) tmplibgcc2.a $${name}$(objext); \
-	  rm -f $${name}$(objext); \
 	done
 # Some shells crash when a loop has no items.
 # So make sure there is always at least one--`..'.

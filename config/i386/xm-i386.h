@@ -30,7 +30,7 @@ Boston, MA 02111-1307, USA.  */
 #define HOST_BITS_PER_CHAR 8
 #define HOST_BITS_PER_SHORT 16
 #define HOST_BITS_PER_INT 32
-#define HOST_BITS_PER_LONG 32
+#define HOST_BITS_PER_LONG 64
 #define HOST_BITS_PER_LONGLONG 64
 
 /* Arguments to use with `exit'.  */
